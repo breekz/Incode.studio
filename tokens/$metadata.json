@@ -1,0 +1,8 @@
+{
+  "tokenSetOrder": [
+    "Core",
+    "Mode/Dark",
+    "Mode/Light",
+    "Theme/Incode"
+  ]
+}

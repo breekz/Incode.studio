@@ -8,6 +8,10 @@
     "type": "color"
   },
   "surface": {
+    "neutral": {
+      "value": "{Neutral.Light}",
+      "type": "color"
+    },
     "primary": {
       "value": "{Gray.50}",
       "type": "color"
@@ -113,6 +117,52 @@
     "positive": {
       "value": "{Green.600}",
       "type": "color"
+    }
+  },
+  "Feedback": {
+    "Small": {
+      "value": {
+        "fontFamily": "{DM Sans}",
+        "fontWeight": "{500}",
+        "fontSize": "{18}"
+      },
+      "type": "typography"
+    },
+    "big": {
+      "value": {
+        "fontFamily": "{DM Sans}",
+        "fontWeight": "{700}",
+        "fontSize": "{24}"
+      },
+      "type": "typography"
+    }
+  },
+  "headline": {
+    "h2": {
+      "value": {
+        "fontFamily": "{DM Sans}",
+        "fontWeight": "{700}",
+        "fontSize": "{24}"
+      },
+      "type": "typography"
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "{DM Sans}",
+        "fontWeight": "{500}",
+        "fontSize": "{18}"
+      },
+      "type": "typography"
+    }
+  },
+  "paragrah": {
+    "default": {
+      "value": {
+        "fontFamily": "{DM Sans}",
+        "fontWeight": "{700}",
+        "fontSize": "{14}"
+      },
+      "type": "typography"
     }
   }
 }

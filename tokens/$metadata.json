@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
-    "Core",
-    "Mode/Dark",
-    "Mode/Light",
+    "Primitives",
+    "Reference Tokens/Dark",
+    "Reference Tokens/Light",
     "Semantic Tokens"
   ]
 }

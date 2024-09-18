@@ -4,10 +4,10 @@
     "type": "color"
   },
   "background": {
-    "value": "{Neutral.Dark}",
-    "type": "color"
-  },
-  "surface": {
+    "neutral": {
+      "value": "{Neutral.Dark}",
+      "type": "color"
+    },
     "primary": {
       "value": "{Gray.800}",
       "type": "color"
@@ -113,6 +113,32 @@
     "positive": {
       "value": "{Green.600}",
       "type": "color"
+    }
+  },
+  "surface": {
+    "blue": {
+      "default": {
+        "value": "{Blue.500}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.300}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{Blue.600}",
+        "type": "color"
+      },
+      "disable": {
+        "value": "{Blue.900}",
+        "type": "color"
+      }
+    },
+    "gray": {
+      "500": {
+        "value": "#",
+        "type": "color"
+      }
     }
   }
 }

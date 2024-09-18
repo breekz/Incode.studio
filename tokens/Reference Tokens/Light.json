@@ -4,10 +4,6 @@
     "type": "color"
   },
   "background": {
-    "value": "{Neutral.Light}",
-    "type": "color"
-  },
-  "surface": {
     "neutral": {
       "value": "{Neutral.Light}",
       "type": "color"
@@ -163,6 +159,32 @@
         "fontSize": "{14}"
       },
       "type": "typography"
+    }
+  },
+  "surface": {
+    "blue": {
+      "default": {
+        "value": "{Blue.500}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.400}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{Blue.600}",
+        "type": "color"
+      },
+      "disable": {
+        "value": "{Gray.100}",
+        "type": "color"
+      }
+    },
+    "gray": {
+      "default": {
+        "value": "#",
+        "type": "color"
+      }
     }
   }
 }

@@ -197,26 +197,6 @@
       "type": "color"
     }
   },
-  "LetterSpacing": {
-    "none": {
-      "value": {
-        "letterSpacing": "0"
-      },
-      "type": "typography"
-    },
-    "medium": {
-      "value": {
-        "letterSpacing": "-0.5"
-      },
-      "type": "typography"
-    },
-    "large": {
-      "value": {
-        "letterSpacing": "-1"
-      },
-      "type": "typography"
-    }
-  },
   "None": {
     "value": "0",
     "type": "borderRadius"

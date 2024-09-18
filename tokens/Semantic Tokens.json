@@ -15,15 +15,15 @@
     "primary": {
       "surface": {
         "default": {
-          "value": "{Blue.500}",
+          "value": "{surface.blue.default}",
           "type": "color"
         },
         "hover": {
-          "value": "{Blue.400}",
+          "value": "{surface.blue.hover}",
           "type": "color"
         },
         "pressed": {
-          "value": "{Blue.600}",
+          "value": "{surface.blue.pressed}",
           "type": "color"
         },
         "disabled": {

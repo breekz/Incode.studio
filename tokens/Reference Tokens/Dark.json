@@ -9,11 +9,11 @@
       "type": "color"
     },
     "primary": {
-      "value": "{Gray.800}",
+      "value": "{Grey.800}",
       "type": "color"
     },
     "secondary": {
-      "value": "{Gray.700}",
+      "value": "{Grey.700}",
       "type": "color"
     },
     "accent": {
@@ -35,11 +35,11 @@
   },
   "icon": {
     "primary": {
-      "value": "{Gray.300}",
+      "value": "{Grey.300}",
       "type": "color"
     },
     "secondary": {
-      "value": "{Gray.100}",
+      "value": "{Grey.100}",
       "type": "color"
     },
     "accent": {
@@ -61,11 +61,11 @@
   },
   "border": {
     "primary": {
-      "value": "{Gray.700}",
+      "value": "{Grey.700}",
       "type": "color"
     },
     "focus": {
-      "value": "{Gray.300}",
+      "value": "{Grey.300}",
       "type": "color"
     },
     "accent": {
@@ -87,15 +87,15 @@
   },
   "text": {
     "primary": {
-      "value": "{Gray.50}",
+      "value": "{Grey.50}",
       "type": "color"
     },
     "secondary": {
-      "value": "{Gray.300}",
+      "value": "{Grey.300}",
       "type": "color"
     },
     "tertiary": {
-      "value": "{Gray.500}",
+      "value": "{Grey.500}",
       "type": "color"
     },
     "accent": {
@@ -112,6 +112,10 @@
     },
     "positive": {
       "value": "{Green.600}",
+      "type": "color"
+    },
+    "invert": {
+      "value": "{Neutral.Dark}",
       "type": "color"
     }
   },
@@ -134,7 +138,7 @@
         "type": "color"
       }
     },
-    "gray": {
+    "grey": {
       "500": {
         "value": "#",
         "type": "color"

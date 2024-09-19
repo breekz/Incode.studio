@@ -91,7 +91,7 @@
       "type": "color"
     },
     "500": {
-      "value": "#3388ff",
+      "value": "#006aff",
       "type": "color"
     },
     "600": {
@@ -103,7 +103,7 @@
       "type": "color"
     }
   },
-  "Gray": {
+  "Grey": {
     "50": {
       "value": "#fcfcfd",
       "type": "color"

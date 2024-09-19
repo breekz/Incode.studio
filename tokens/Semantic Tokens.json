@@ -15,43 +15,25 @@
     "primary": {
       "surface": {
         "default": {
-          "value": "{surface.blue.default}",
+          "value": "{surface.primary.base}",
           "type": "color"
         },
         "hover": {
-          "value": "{surface.blue.hover}",
+          "value": "{surface.primary.400}",
           "type": "color"
         },
         "pressed": {
-          "value": "{surface.blue.pressed}",
+          "value": "{surface.primary.600}",
           "type": "color"
         },
         "disabled": {
-          "value": "{Gray.100}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{Blue.500}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{Blue.400}",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "{Blue.600}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{Gray.100}",
+          "value": "{surface.secondary.base}",
           "type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "{Neutral.Light}",
+          "value": "{text.invert}",
           "type": "color"
         },
         "disabled": {
@@ -63,19 +45,47 @@
     "secondary": {
       "surface": {
         "default": {
-          "value": "{Blue.500}",
+          "value": "{surface.secondary.0}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{surface.primary.50}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{surface.primary.600}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{surface.secondary.base}",
           "type": "color"
         }
       },
       "border": {
         "default": {
-          "value": "{Blue.500}",
+          "value": "{surface.primary.base}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{surface.primary.50}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{surface.primary.600}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{surface.secondary.base}",
           "type": "color"
         }
       },
       "text": {
         "default": {
           "value": "{text.accent}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{text.secondary}",
           "type": "color"
         }
       }

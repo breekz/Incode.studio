@@ -1,19 +1,20 @@
 {
   "brand": {
     "value": "{Blue.500}",
-    "type": "color"
+    "type": "color",
+    "description": "Dont use for text or buttons. Only use this token on general places that may not have a more suitable reference token defined. Example: A special banner background that cant use surface tokens."
   },
   "background": {
+    "primary": {
+      "value": "{Grey.50}",
+      "type": "color"
+    },
     "neutral": {
       "value": "{Neutral.Light}",
       "type": "color"
     },
-    "primary": {
-      "value": "{Gray.50}",
-      "type": "color"
-    },
     "secondary": {
-      "value": "{Gray.100}",
+      "value": "{Grey.100}",
       "type": "color"
     },
     "accent": {
@@ -35,11 +36,11 @@
   },
   "icon": {
     "primary": {
-      "value": "{Gray.500}",
+      "value": "{Grey.500}",
       "type": "color"
     },
     "secondary": {
-      "value": "{Gray.800}",
+      "value": "{Grey.800}",
       "type": "color"
     },
     "accent": {
@@ -61,11 +62,11 @@
   },
   "border": {
     "primary": {
-      "value": "{Gray.100}",
+      "value": "{Grey.100}",
       "type": "color"
     },
     "focus": {
-      "value": "{Gray.500}",
+      "value": "{Grey.500}",
       "type": "color"
     },
     "accent": {
@@ -87,15 +88,15 @@
   },
   "text": {
     "primary": {
-      "value": "{Gray.800}",
+      "value": "{Grey.800}",
       "type": "color"
     },
     "secondary": {
-      "value": "{Gray.500}",
+      "value": "{Grey.500}",
       "type": "color"
     },
     "tertiary": {
-      "value": "{Gray.300}",
+      "value": "{Grey.300}",
       "type": "color"
     },
     "accent": {
@@ -112,6 +113,10 @@
     },
     "positive": {
       "value": "{Green.600}",
+      "type": "color"
+    },
+    "invert": {
+      "value": "{Neutral.Light}",
       "type": "color"
     }
   },
@@ -162,27 +167,59 @@
     }
   },
   "surface": {
-    "blue": {
-      "default": {
-        "value": "{Blue.500}",
+    "primary": {
+      "50": {
+        "value": "{Blue.50}",
         "type": "color"
       },
-      "hover": {
+      "400": {
         "value": "{Blue.400}",
         "type": "color"
       },
-      "pressed": {
+      "600": {
         "value": "{Blue.600}",
         "type": "color"
       },
-      "disable": {
-        "value": "{Gray.100}",
+      "base": {
+        "value": "{Blue.500}",
         "type": "color"
       }
     },
-    "gray": {
-      "default": {
-        "value": "#",
+    "secondary": {
+      "0": {
+        "value": "{Neutral.Light}",
+        "type": "color"
+      },
+      "50": {
+        "value": "{Grey.50}",
+        "type": "color"
+      },
+      "200": {
+        "value": "{Grey.200}",
+        "type": "color"
+      },
+      "300": {
+        "value": "{Grey.300}",
+        "type": "color"
+      },
+      "500": {
+        "value": "{Grey.500}",
+        "type": "color"
+      },
+      "700": {
+        "value": "{Grey.700}",
+        "type": "color"
+      },
+      "800": {
+        "value": "{Grey.800}",
+        "type": "color"
+      },
+      "900": {
+        "value": "{Grey.900}",
+        "type": "color"
+      },
+      "base": {
+        "value": "{Grey.100}",
         "type": "color"
       }
     }

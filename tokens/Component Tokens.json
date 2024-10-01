@@ -8,6 +8,10 @@
       "hover": {
         "value": "{text.body.primary}",
         "type": "color"
+      },
+      "visited": {
+        "value": "{text.brand.accent}",
+        "type": "color"
       }
     }
   },
@@ -15,7 +19,7 @@
     "primary": {
       "surface": {
         "default": {
-          "value": "{surface.primary.base}",
+          "value": "{surface.primary.500}",
           "type": "color"
         },
         "hover": {
@@ -27,7 +31,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{surface.secondary.base}",
+          "value": "{surface.secondary.200}",
           "type": "color"
         }
       },
@@ -57,13 +61,13 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{surface.secondary.base}",
+          "value": "{surface.secondary.200}",
           "type": "color"
         }
       },
       "border": {
         "default": {
-          "value": "{surface.primary.base}",
+          "value": "{surface.primary.500}",
           "type": "color"
         },
         "hover": {
@@ -75,7 +79,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{surface.secondary.base}",
+          "value": "{surface.secondary.200}",
           "type": "color"
         }
       },
@@ -94,57 +98,53 @@
   "checkbox": {
     "surface": {
       "disabled": {
-        "value": "#",
+        "value": "{surface.secondary.200}",
         "type": "color"
       },
       "select": {
-        "value": "#",
+        "value": "{surface.primary.500}",
         "type": "color"
       },
       "unselect": {
-        "value": "#",
+        "value": "{surface.secondary.0}",
         "type": "color"
       }
     },
     "border": {
       "unselect": {
-        "value": "#",
+        "value": "{border.primary}",
         "type": "color"
       },
       "select": {
-        "value": "#",
+        "value": "{border.accent}",
         "type": "color"
       },
       "disabled": {
-        "value": "#",
+        "value": "{border.disabled}",
         "type": "color"
       },
       "negative": {
-        "value": "#",
+        "value": "{border.negative}",
         "type": "color"
       }
     },
     "icon": {
-      "checked": {
-        "value": "#",
-        "type": "color"
-      },
-      "indeterminate": {
-        "value": "#",
+      "default": {
+        "value": "{surface.secondary.0}",
         "type": "color"
       }
     },
     "text": {
       "disabled": {
-        "value": "#",
+        "value": "{text.body.tertiary}",
         "type": "color"
       },
       "negative": {
-        "value": "#",
+        "value": "{text.status.negative}",
         "type": "color"
       },
       "default": {
-        "value": "#",
+        "value": "{text.body.primary}",
         "type": "color"
       }
     }
@@ -152,97 +152,95 @@
   "input": {
     "surface": {
       "default": {
-        "value": "#",
+        "value": "{surface.secondary.0}",
         "type": "color"
       },
       "active": {
-        "value": "#",
+        "value": "{surface.secondary.0}",
         "type": "color"
       },
       "disabled": {
-        "value": "#",
+        "value": "{surface.secondary.200}",
         "type": "color"
       },
       "negative": {
-        "value": "#",
+        "value": "{surface.secondary.0}",
         "type": "color"
       }
     },
     "border": {
       "default": {
-        "value": "#",
+        "value": "{border.primary}",
         "type": "color"
       },
       "active": {
-        "value": "#",
+        "value": "{border.accent}",
         "type": "color"
       },
       "disabled": {
-        "value": "#",
+        "value": "{border.disabled}",
         "type": "color"
       },
       "negative": {
-        "value": "#",
+        "value": "{border.negative}",
         "type": "color"
       }
     },
     "text": {
       "label": {
         "default": {
-          "value": "#",
+          "value": "{text.body.primary}",
           "type": "color"
         },
         "disabled": {
-          "value": "#",
+          "value": "{text.body.tertiary}",
           "type": "color"
         }
       },
       "field": {
         "default": {
-          "value": "#",
+          "value": "{text.body.primary}",
           "type": "color"
         },
         "disabled": {
-          "value": "#",
-          "type": "color"
-        }
-      },
-      "placeholder": {
-        "default": {
-          "value": "#",
+          "value": "{text.body.tertiary}",
           "type": "color"
         },
-        "disabled": {
-          "value": "#",
+        "placeholder": {
+          "value": "{text.body.tertiary}",
           "type": "color"
         }
       },
       "helper": {
         "default": {
-          "value": "#",
+          "value": "{text.body.secondary}",
           "type": "color"
         },
         "disabled": {
-          "value": "#",
+          "value": "{text.body.tertiary}",
           "type": "color"
         },
         "negative": {
-          "value": "#",
+          "value": "{text.status.negative}",
           "type": "color"
         }
       }
     },
     "icon": {
       "positive": {
-        "value": "#",
+        "value": "{surface.status.positive}",
         "type": "color"
       },
       "warning": {
-        "value": "#",
+        "value": "{surface.status.warning}",
         "type": "color"
       },
       "negative": {
-        "value": "#",
+        "value": "{surface.status.negative}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{surface.secondary.300}",
         "type": "color"
       }
     }

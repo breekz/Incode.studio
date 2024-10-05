@@ -5,11 +5,17 @@
     "description": "Dont use for text or buttons. Only use this token on general places that may not have a more suitable reference token defined. Example: A special banner background that cant use surface tokens."
   },
   "surface": {
-    "secondary": {
-      "0": {
+    "neutral": {
+      "light": {
         "value": "{Neutral.Light}",
         "type": "color"
       },
+      "dark": {
+        "value": "{Neutral.Dark}",
+        "type": "color"
+      }
+    },
+    "secondary": {
       "50": {
         "value": "{Grey.50}",
         "type": "color"
@@ -121,7 +127,11 @@
       "value": "{Grey.100}",
       "type": "color"
     },
-    "focus": {
+    "secondary": {
+      "value": "{Grey.300}",
+      "type": "color"
+    },
+    "tertiary": {
       "value": "{Grey.500}",
       "type": "color"
     },
@@ -139,10 +149,6 @@
     },
     "positive": {
       "value": "{Green.600}",
-      "type": "color"
-    },
-    "disabled": {
-      "value": "{Grey.300}",
       "type": "color"
     }
   },

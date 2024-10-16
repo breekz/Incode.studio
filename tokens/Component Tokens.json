@@ -105,13 +105,13 @@
         "value": "{surface.primary.500}",
         "type": "color"
       },
-      "unselect": {
+      "default": {
         "value": "{surface.neutral.light}",
         "type": "color"
       }
     },
     "border": {
-      "unselect": {
+      "default": {
         "value": "{border.primary}",
         "type": "color"
       },
@@ -123,7 +123,7 @@
         "value": "{border.secondary}",
         "type": "color"
       },
-      "negative": {
+      "error": {
         "value": "{border.negative}",
         "type": "color"
       }

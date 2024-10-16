@@ -109,6 +109,10 @@
       "value": "{Blue.500}",
       "type": "color"
     },
+    "invert": {
+      "value": "{Neutral.Light}",
+      "type": "color"
+    },
     "negative": {
       "value": "{Red.600}",
       "type": "color"
@@ -154,6 +158,10 @@
   },
   "text": {
     "body": {
+      "invert": {
+        "value": "{Neutral.Light}",
+        "type": "color"
+      },
       "primary": {
         "value": "{Grey.800}",
         "type": "color"
@@ -164,10 +172,6 @@
       },
       "tertiary": {
         "value": "{Grey.300}",
-        "type": "color"
-      },
-      "invert": {
-        "value": "{Neutral.Light}",
         "type": "color"
       }
     },
@@ -194,52 +198,6 @@
         "value": "{Green.600}",
         "type": "color"
       }
-    }
-  },
-  "Feedback": {
-    "Small": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{500}",
-        "fontSize": "{18}"
-      },
-      "type": "typography"
-    },
-    "big": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{700}",
-        "fontSize": "{24}"
-      },
-      "type": "typography"
-    }
-  },
-  "headline": {
-    "h2": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{700}",
-        "fontSize": "{24}"
-      },
-      "type": "typography"
-    },
-    "h4": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{500}",
-        "fontSize": "{18}"
-      },
-      "type": "typography"
-    }
-  },
-  "paragrah": {
-    "default": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{700}",
-        "fontSize": "{14}"
-      },
-      "type": "typography"
     }
   }
 }

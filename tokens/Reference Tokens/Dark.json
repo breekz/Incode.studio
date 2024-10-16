@@ -1,247 +1,27 @@
 {
   "brand": {
-    "value": "{Blue.500}",
+    "value": "{Blue.400}",
     "type": "color",
     "description": "Dont use for text or buttons. Only use this token on general places that may not have a more suitable reference token defined. Example: A special banner background that cant use surface tokens."
   },
-  "background": {
-    "primary": {
-      "value": "{Grey.800}",
-      "type": "color"
-    },
+  "surface": {
     "neutral": {
-      "value": "{Grey.900}",
-      "type": "color"
-    },
-    "secondary": {
-      "value": "{Grey.700}",
-      "type": "color"
-    },
-    "accent": {
-      "value": "{Blue.900}",
-      "type": "color"
-    },
-    "negative": {
-      "value": "{Red.950}",
-      "type": "color"
-    },
-    "warning": {
-      "value": "{Orange.950}",
-      "type": "color"
-    },
-    "positive": {
-      "value": "{Green.800}",
-      "type": "color"
-    }
-  },
-  "icon": {
-    "primary": {
-      "value": "{Grey.300}",
-      "type": "color"
-    },
-    "secondary": {
-      "value": "{Grey.100}",
-      "type": "color"
-    },
-    "accent": {
-      "value": "{Blue.500}",
-      "type": "color"
-    },
-    "negative": {
-      "value": "{Red.500}",
-      "type": "color"
-    },
-    "warning": {
-      "value": "{Orange.400}",
-      "type": "color"
-    },
-    "positive": {
-      "value": "{Green.600}",
-      "type": "color"
-    }
-  },
-  "border": {
-    "primary": {
-      "value": "{Grey.700}",
-      "type": "color"
-    },
-    "focus": {
-      "value": "{Grey.300}",
-      "type": "color"
-    },
-    "accent": {
-      "value": "{Blue.500}",
-      "type": "color"
-    },
-    "negative": {
-      "value": "{Red.500}",
-      "type": "color"
-    },
-    "warning": {
-      "value": "{Orange.400}",
-      "type": "color"
-    },
-    "positive": {
-      "value": "{Green.600}",
-      "type": "color"
-    }
-  },
-  "text": {
-    "body": {
-      "primary": {
-        "value": "{Grey.800}",
+      "light": {
+        "value": "{Neutral.Dark}",
         "type": "color"
       },
-      "secondary": {
-        "value": "{Grey.500}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{Grey.300}",
-        "type": "color"
-      },
-      "invert": {
+      "dark": {
         "value": "{Neutral.Light}",
         "type": "color"
       }
     },
-    "brand": {
-      "accent": {
-        "value": "{Blue.500}",
-        "type": "color"
-      },
-      "special": {
-        "value": "{Purple.500}",
-        "type": "color"
-      }
-    },
-    "status": {
-      "negative": {
-        "value": "{Red.600}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{Orange.500}",
-        "type": "color"
-      },
-      "positive": {
-        "value": "{Green.600}",
-        "type": "color"
-      }
-    },
-    "link": {
-      "default": {
-        "value": "{Blue.500}",
-        "type": "color"
-      },
-      "hover": {
-        "value": "#",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "#",
-        "type": "color"
-      },
-      "visited": {
-        "value": "#",
-        "type": "color"
-      }
-    },
-    "input": {
-      "default": {
-        "value": "#",
-        "type": "color"
-      },
-      "active": {
-        "value": "#",
-        "type": "color"
-      },
-      "selected": {
-        "value": "#",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "#",
-        "type": "color"
-      },
-      "negative": {
-        "value": "#",
-        "type": "color"
-      }
-    }
-  },
-  "Feedback": {
-    "Small": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{500}",
-        "fontSize": "{18}"
-      },
-      "type": "typography"
-    },
-    "big": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{700}",
-        "fontSize": "{24}"
-      },
-      "type": "typography"
-    }
-  },
-  "headline": {
-    "h2": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{700}",
-        "fontSize": "{24}"
-      },
-      "type": "typography"
-    },
-    "h4": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{500}",
-        "fontSize": "{18}"
-      },
-      "type": "typography"
-    }
-  },
-  "paragrah": {
-    "default": {
-      "value": {
-        "fontFamily": "{DM Sans}",
-        "fontWeight": "{700}",
-        "fontSize": "{14}"
-      },
-      "type": "typography"
-    }
-  },
-  "surface": {
-    "primary": {
-      "50": {
-        "value": "{Blue.50}",
-        "type": "color"
-      },
-      "400": {
-        "value": "{Blue.400}",
-        "type": "color"
-      },
-      "600": {
-        "value": "{Blue.600}",
-        "type": "color"
-      },
-      "base": {
-        "value": "{Blue.500}",
-        "type": "color"
-      }
-    },
     "secondary": {
-      "0": {
-        "value": "{Neutral.Dark}",
-        "type": "color"
-      },
       "50": {
         "value": "{Grey.900}",
+        "type": "color"
+      },
+      "100": {
+        "value": "{Grey.800}",
         "type": "color"
       },
       "200": {
@@ -267,9 +47,155 @@
       "900": {
         "value": "{Grey.50}",
         "type": "color"
+      }
+    },
+    "status": {
+      "soft": {
+        "negative": {
+          "value": "{Red.950}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{Orange.950}",
+          "type": "color"
+        },
+        "positive": {
+          "value": "{Green.800}",
+          "type": "color"
+        }
       },
-      "base": {
-        "value": "{Grey.800}",
+      "negative": {
+        "value": "{Red.500}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Orange.400}",
+        "type": "color"
+      },
+      "positive": {
+        "value": "{Green.600}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "50": {
+        "value": "{Blue.900}",
+        "type": "color"
+      },
+      "400": {
+        "value": "{Blue.400}",
+        "type": "color"
+      },
+      "500": {
+        "value": "{Blue.300}",
+        "type": "color"
+      },
+      "600": {
+        "value": "{Blue.200}",
+        "type": "color"
+      }
+    }
+  },
+  "icon": {
+    "primary": {
+      "value": "{Grey.300}",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "{Grey.100}",
+      "type": "color"
+    },
+    "accent": {
+      "value": "{Blue.500}",
+      "type": "color"
+    },
+    "invert": {
+      "value": "{Grey.900}",
+      "type": "color"
+    },
+    "negative": {
+      "value": "{Red.500}",
+      "type": "color"
+    },
+    "warning": {
+      "value": "{Orange.400}",
+      "type": "color"
+    },
+    "positive": {
+      "value": "{Green.600}",
+      "type": "color"
+    }
+  },
+  "border": {
+    "primary": {
+      "value": "{Grey.700}",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "{Grey.500}",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "{Grey.300}",
+      "type": "color"
+    },
+    "accent": {
+      "value": "{Blue.500}",
+      "type": "color"
+    },
+    "negative": {
+      "value": "{Red.500}",
+      "type": "color"
+    },
+    "warning": {
+      "value": "{Orange.400}",
+      "type": "color"
+    },
+    "positive": {
+      "value": "{Green.600}",
+      "type": "color"
+    }
+  },
+  "text": {
+    "body": {
+      "invert": {
+        "value": "{Neutral.Dark}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{Grey.50}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Grey.300}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Grey.500}",
+        "type": "color"
+      }
+    },
+    "brand": {
+      "accent": {
+        "value": "{Blue.500}",
+        "type": "color"
+      },
+      "special": {
+        "value": "{Purple.500}",
+        "type": "color"
+      }
+    },
+    "status": {
+      "negative": {
+        "value": "{Red.500}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Orange.400}",
+        "type": "color"
+      },
+      "positive": {
+        "value": "{Green.600}",
         "type": "color"
       }
     }
